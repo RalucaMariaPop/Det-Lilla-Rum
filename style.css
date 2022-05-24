@@ -11,10 +11,17 @@ Updated: 2022-05-18 09:57:33
 
 */
 
-/* BREADCRUMBS*/
+/*  - Books - We changed the margins in mobile view and hid the category called Uncategorized*/
 
-<?php
-if ( function_exists('yoast_breadcrumb') ) {
-  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+.wpf_product_cat_21 {
+  display: none !important;
 }
-?>
+
+.elementor-element.elementor-element-88303f0.elementor-grid-1.elementor-grid-mobile-1.elementor-grid-tablet-3.elementor-products-grid.elementor-wc-products.elementor-widget.elementor-widget-woocommerce-products.wpf-search-container {
+  margin-left: -5px;
+  margin-top: 230px;
+}
+
+.wpf_form.wpf_form_bookfilters.wpf_form_ajax {
+  margin-right: -60px;
+}

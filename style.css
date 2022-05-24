@@ -11,4 +11,10 @@ Updated: 2022-05-18 09:57:33
 
 */
 
+/* BREADCRUMBS*/
 
+<?php
+if ( function_exists('yoast_breadcrumb') ) {
+  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+}
+?>

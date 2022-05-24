@@ -25,3 +25,23 @@ Updated: 2022-05-18 09:57:33
 .wpf_form.wpf_form_bookfilters.wpf_form_ajax {
   margin-right: -60px;
 }
+
+/* Single Product page*/
+
+a.woocommerce-product-gallery__trigger {
+  display: none;
+}
+
+img.wp-post-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.woocommerce div.product div.images img {
+  display: block;
+  width: 50%;
+  height: auto;
+  box-shadow: none;
+}
